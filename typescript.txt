@@ -1,0 +1,150 @@
+
+// Tipos de datos 
+
+// Numéricos (number)
+
+/*
+let numero:number = -10.89
+console.log(numero)
+*/
+
+// Cadenas de texto (string)
+
+/*
+let nombre:string = `Ana`
+console.log(nombre)
+*/
+
+
+// Valor de verdad - booleano (boolean)
+
+/*
+    let pagado:boolean = false
+    console.log  (pagado ? 'pagado': 'no pagado')
+*/
+
+
+// Objeto (object)
+
+//Para JavaScript
+
+/*
+let cliente = {
+    nombre:'Pepe',
+    edad_45
+}
+
+*/
+
+
+// Para typescript
+
+/*
+let cliente :{
+    nombre:string,
+    edad:number
+} = {
+  nombre: 'Pepe',
+    edad:45
+}
+
+console.log(cliente)
+*/
+
+// Arreglos (Arrays) 
+
+// Js
+
+/*
+let habilidades = ['InteligenciEmocional', 3,4,]
+
+console.log(habilidades)
+
+*/
+
+// ts 
+
+let habilidades:string[] = ['Ana', 'Pedro', 'Juan']
+/*
+for(let i of habilidades){
+    console.log(i)
+}
+
+let datos :any[] = ['Ana', 'Pedro', 4]
+
+for(let i of habilidades){
+    console.log(i)
+}
+*/
+
+
+
+// Arreglo de objetos
+
+let empleados: any = [
+    {
+        id : 1,
+        nombre:'Pedro',
+        edad:45
+    },
+    {
+        id : 2,
+        nombre:'Sandra',
+        edad:34
+    },
+
+]
+
+/*for(let empleado of empleados){
+    console.log(empleado.edad)
+}
+*/
+
+
+// Tupla - Arreglo de longitud fija (propio de ts)
+
+let datos : [number, string, string, string, string] = [
+    42343243434234, 'Juan', 'Pérez','Losada,', 'juan@es,es'
+]
+
+/* 
+console.log(datos[0])
+console.log(datos[1])
+*/
+
+
+
+for(let dato of datos){
+    console.log(dato)
+}
+
+// Enum  (Enumerado) (Propio de ts)
+
+enum colores{rojo,verde,amarillo}
+
+let preferecias = {
+    fuente: 'SansSerif',
+    color:colores.verde
+}
+
+// any (cualquier tipo de dato)
+
+let dato:any = [
+    {
+        nombre:'Juan',
+        edad:21
+    },
+    {
+        nombre:'Pepe',
+        edad:45
+    }
+]
+
+for(let dat of dato){
+    console.log(dat.nombre)
+}
+    
+
+
+
+
