@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif;
+}
+.verde{
+    background-color: green;
+    color: white;
+    width: 80vw;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.rojo{
+    background-color: rgb(114, 21, 21);
+    color: white;
+    width: 80vw;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.azul{
+    background-color: rgb(37, 88, 155);
+    color: white;
+    width: 80vw;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.gris{
+    background-color: grey;
+    color: white;
+    width: 80vw;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+}
