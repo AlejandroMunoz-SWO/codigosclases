@@ -1,0 +1,34 @@
+### OBTENER TODOS LOS CONTACTOS
+GET http://localhost:8080/api/contacto/lista
+
+
+### OBTENER TODOS EL CONTACTO POR EL ID
+GET http://localhost:8080/api/contacto/2
+
+
+### GUARDAR EL CONTACTO
+POST http://localhost:8080/api/contacto/guardar
+Content-Type: application/json
+
+{
+  "nombre": "Silvia",
+  "apellidoUno": "Harnández",
+  "apellidoDos":"López",
+  "telefono": 678655443
+}
+
+### ELIMINAR CONTACTO
+
+DELETE  http://localhost:8080/api/contacto/eliminar/1
+
+### MODIFICAR CONTACTO
+
+PUT http://localhost:8080/api/contacto/3
+Content-Type: application/json
+
+{
+  "nombre": "Silvio",
+  "apellidoUno": "Harnández modificado",
+  "apellidoDos":"López modificado",
+  "telefono": 666666666
+}
