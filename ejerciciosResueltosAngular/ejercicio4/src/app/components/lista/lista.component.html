@@ -1,0 +1,33 @@
+
+<div class="container mt-4">
+
+  <button  (click)="tableRender()" class="btn btn-success d-block me-auto ms-auto my-5">
+    {{ textoBoton }}
+  </button>
+
+
+  <div *ngIf="mostraTabla">
+    <table class="table w-75 me-auto ms-auto text-center">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Antiguedad</th>
+          <th>Salario</th>
+        </tr>
+      </thead>
+  
+      <tbody>
+        <tr *ngFor="let empleado of empleados">
+          <td>{{ empleado.nombre }}</td>
+          <td>{{ empleado.antiguedad }}</td>
+          <td>{{ empleado.sueldo}}</td>
+        </tr>
+      </tbody>
+  
+    </table>
+
+  </div>
+
+
+
+</div>
