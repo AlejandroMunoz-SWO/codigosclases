@@ -1,13 +1,13 @@
-package com.example.ManyToMnay;
+package com.example.MuchosAMuchos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ManyToMnayApplication {
+public class MuchosAMuchosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ManyToMnayApplication.class, args);
+		SpringApplication.run(MuchosAMuchosApplication.class, args);
 	}
 
 }

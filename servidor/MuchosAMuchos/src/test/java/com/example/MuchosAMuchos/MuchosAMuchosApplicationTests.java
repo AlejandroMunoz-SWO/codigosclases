@@ -1,10 +1,10 @@
-package com.example.ManyToMnay;
+package com.example.MuchosAMuchos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ManyToMnayApplicationTests {
+class MuchosAMuchosApplicationTests {
 
 	@Test
 	void contextLoads() {
