@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.empresa.model.Departamento;
 import com.example.empresa.service.DepartametoService;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin({"*"})
 @RestController
