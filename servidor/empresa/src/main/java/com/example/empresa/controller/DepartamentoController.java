@@ -11,6 +11,7 @@ import org.springframework.web.service.annotation.GetExchange;
 import com.example.empresa.model.Departamento;
 import com.example.empresa.service.DepartametoService;
 
+@CrossOrigin({"*"})
 @RestController
 @RequestMapping("/api/departamento")
 public class DepartamentoController {
