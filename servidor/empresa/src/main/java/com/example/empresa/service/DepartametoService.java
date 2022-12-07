@@ -17,5 +17,9 @@ public class DepartametoService {
   public List<Departamento> listaDepartamentos(){
     return departamentoRepo.findAll();
   }
+
+  public Departamento guardarDepartamento(Departamento departamento){
+    return departamentoRepo.save(departamento);
+  }
   
 }
