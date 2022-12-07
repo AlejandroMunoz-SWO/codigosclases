@@ -7,10 +7,15 @@ import { RouterModule, Routes} from '@angular/router'
 import { HttpClientModule } from '@angular/common/http';
 import { DepartamentoformComponent } from './components/departamentoform/departamentoform.component'
 import { FormsModule } from '@angular/forms';
+import { FormempleadoComponent } from './components/formempleado/formempleado.component';
+import { NavegacionComponent } from './components/navegacion/navegacion.component';
+import { ListaempleadosComponent } from './components/listaempleados/listaempleados.component';
 
 const rutas:Routes = [
   {path:'departamentos', component: ListadepartamentosComponent},
-  {path:'departamento/form', component: DepartamentoformComponent}
+  {path:'departamento/form', component: DepartamentoformComponent},
+  {path:'empleado/form', component: FormempleadoComponent},
+  {path:'empleados', component: ListaempleadosComponent}
 ]
 
 
@@ -18,7 +23,10 @@ const rutas:Routes = [
   declarations: [
     AppComponent,
     ListadepartamentosComponent,
-    DepartamentoformComponent
+    DepartamentoformComponent,
+    FormempleadoComponent,
+    NavegacionComponent,
+    ListaempleadosComponent
   ],
   imports: [
     BrowserModule,

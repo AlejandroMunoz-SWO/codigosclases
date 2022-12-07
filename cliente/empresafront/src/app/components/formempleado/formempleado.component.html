@@ -1,0 +1,32 @@
+<div class="container mt-5">
+
+  <div class="card p-4 me-auto ms-auto w-50">
+
+    <form (submit)="save()">
+      <input type="text"  class="form-control my-2 text-center" placeholder="Nombre"
+      autocomplete="off" name="nombre"  [(ngModel)] = "nombre"
+      
+      />
+
+      <input type="text"  class="form-control  my-2 text-center" placeholder="Apellidos"
+      autocomplete="off" name="apellidos"  [(ngModel)] = "apellidos"
+      
+      />
+
+      <select (change)="getDepartamento()" name="departamento" class="form-select mb-2 text-center" 
+      [(ngModel)] = "opcion">
+        <option *ngFor="let departamento of departamentos" [value]=departamento.id>
+          {{ departamento.nombreDepartamento }}
+        </option>
+      </select>
+
+      <button class="btn btn-primary form-control">GUARDAR</button>
+
+
+    </form>
+
+
+  </div>
+
+
+</div>
