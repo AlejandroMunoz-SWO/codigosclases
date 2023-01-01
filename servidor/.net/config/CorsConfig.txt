@@ -1,0 +1,14 @@
+
+
+// Archivo Program.cs
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Mi_Politica", app =>
+    {
+        app.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
+
+app.UseCors("Mi_Politica");
+
