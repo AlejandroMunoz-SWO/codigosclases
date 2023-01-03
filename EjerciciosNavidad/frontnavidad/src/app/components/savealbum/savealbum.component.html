@@ -1,0 +1,17 @@
+<form (submit)="save()">
+  <input type="text" name="albumname" autocomplete="off" [(ngModel)]="album.albumName" />
+
+  <br>
+
+
+  <select name="opc" [(ngModel)] = "album.band.id">
+    <option *ngFor="let band of bands" [value] ="band.id">
+      {{ band.bandName }}
+    </option>
+  </select>
+
+  <br>
+
+  <button type="submit">GUARDAR</button>
+
+</form>
