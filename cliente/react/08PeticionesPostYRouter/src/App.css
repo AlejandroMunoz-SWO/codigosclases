@@ -1,0 +1,15 @@
+.components__container{
+  width: 30%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.components__container > form{
+  margin: auto;
+}
+
+.components__container >table{
+  margin: auto;
+}
