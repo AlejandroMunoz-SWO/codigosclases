@@ -3728,11 +3728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Algar\\source\\repos\\BiblioAPI\\BiblioAPI\\BiblioAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Algar\\Desktop\\codigosclases\\servidor\\.net\\BiblioAPI\\BiblioAPI\\BiblioAPI.csproj",
       "projectName": "BiblioAPI",
-      "projectPath": "C:\\Users\\Algar\\source\\repos\\BiblioAPI\\BiblioAPI\\BiblioAPI.csproj",
+      "projectPath": "C:\\Users\\Algar\\Desktop\\codigosclases\\servidor\\.net\\BiblioAPI\\BiblioAPI\\BiblioAPI.csproj",
       "packagesPath": "C:\\Users\\Algar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Algar\\source\\repos\\BiblioAPI\\BiblioAPI\\obj\\",
+      "outputPath": "C:\\Users\\Algar\\Desktop\\codigosclases\\servidor\\.net\\BiblioAPI\\BiblioAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Algar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3799,7 +3799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

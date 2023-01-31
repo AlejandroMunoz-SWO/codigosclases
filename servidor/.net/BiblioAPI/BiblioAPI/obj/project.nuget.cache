@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "luGUB01rRu5NBtZADbx5deOjWQtrSNa+P2AUR8dPSMdyKTVUyOguTECC0LpSQyg+Vx9jxAG5B310UL7k5RfaPQ==",
+  "dgSpecHash": "6CKkB3DngM5ZrHB++6MeltmSCh4ReNHs1IRxcf3VOzb6vl8bjysOxexAdRyd4OSek5HCWPZtfIj6KaMUn2UNNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Algar\\source\\repos\\BiblioAPI\\BiblioAPI\\BiblioAPI.csproj",
+  "projectFilePath": "C:\\Users\\Algar\\Desktop\\codigosclases\\servidor\\.net\\BiblioAPI\\BiblioAPI\\BiblioAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Algar\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Algar\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
