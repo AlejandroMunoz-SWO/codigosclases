@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj": {}
+    "C:\\Users\\Algar\\Desktop\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj": {}
   },
   "projects": {
-    "D:\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj": {
+    "C:\\Users\\Algar\\Desktop\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj",
+        "projectUniqueName": "C:\\Users\\Algar\\Desktop\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj",
         "projectName": "FavoriteWebs",
-        "projectPath": "D:\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj",
-        "packagesPath": "C:\\Users\\ext.alejandro.munoz\\.nuget\\packages\\",
-        "outputPath": "D:\\FavoriteWebs\\FavoriteWebs\\obj\\",
+        "projectPath": "C:\\Users\\Algar\\Desktop\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj",
+        "packagesPath": "C:\\Users\\Algar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Algar\\Desktop\\FavoriteWebs\\FavoriteWebs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ext.alejandro.munoz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Algar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

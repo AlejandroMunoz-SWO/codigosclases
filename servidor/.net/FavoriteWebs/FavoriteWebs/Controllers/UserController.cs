@@ -55,6 +55,21 @@ namespace FavoriteWebs.Controllers
             return await _context.Users.Include(x=>x.Webs).FirstOrDefaultAsync(x=>x.Id == id);
         }
 
+        // Buscar por username
+
+        [HttpGet("find-by-username/{username}")]
+        public async Task<ActionResult<User>> GetUserByUsername(string username)
+        {
+            var userExist = await _context.Users.AnyAsync(x => x.Username == username);
+
+            if (!userExist)
+            {
+                return BadRequest($"El usuario con nombre {username} no existe");
+            }
+
+            return await _context.Users.Include(x => x.Webs).FirstOrDefaultAsync(x => x.Username == username);
+        }
+
 
     }
 }
