@@ -1,0 +1,4 @@
+// Agregar el automapper para hacerlo inyectable
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+

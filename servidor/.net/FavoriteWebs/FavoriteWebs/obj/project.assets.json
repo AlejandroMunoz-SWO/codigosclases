@@ -3723,19 +3723,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Algar\\.nuget\\packages\\": {}
+    "C:\\Users\\Alejandro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Algar\\Desktop\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj",
+      "projectUniqueName": "C:\\Users\\Alejandro\\Desktop\\desarrollo\\codigosclases\\servidor\\.net\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj",
       "projectName": "FavoriteWebs",
-      "projectPath": "C:\\Users\\Algar\\Desktop\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj",
-      "packagesPath": "C:\\Users\\Algar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Algar\\Desktop\\FavoriteWebs\\FavoriteWebs\\obj\\",
+      "projectPath": "C:\\Users\\Alejandro\\Desktop\\desarrollo\\codigosclases\\servidor\\.net\\FavoriteWebs\\FavoriteWebs\\FavoriteWebs.csproj",
+      "packagesPath": "C:\\Users\\Alejandro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alejandro\\Desktop\\desarrollo\\codigosclases\\servidor\\.net\\FavoriteWebs\\FavoriteWebs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Algar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alejandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3799,7 +3799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
