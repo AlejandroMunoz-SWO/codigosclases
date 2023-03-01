@@ -1,0 +1,20 @@
+   [HttpGet("list")]
+        public async Task<IActionResult> GetPageable([FromQuery] int?page)
+        {
+
+            int registrosPorPagina = 2;  // Se van a mostrar 5 registros por cada página
+            int pagina = page ?? 1;  // Por defecto mostrará la primera página
+            decimal totalRegistros = await _context.Users.CountAsync(); // total de registros de la base de datos
+            int totalPginas = Convert.ToInt32(Math.Ceiling(totalRegistros / registrosPorPagina));
+
+            var usuarios = await _context.Users.Skip( (pagina -1) * registrosPorPagina).Take(registrosPorPagina).ToListAsync();
+
+            return Ok( new { 
+
+                paginas = totalPginas,
+                registros = usuarios,
+                paginaActual = pagina
+
+            });
+
+        }
